@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/piggy/',
+  base: '/Piggy/',
   plugins: [
     react(),
     VitePWA({
@@ -12,7 +12,7 @@ export default defineConfig({
         name: 'Piggy',
         short_name: 'Piggy',
         display: 'standalone',
-        start_url: '/piggy/',
+        start_url: '/Piggy/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
         icons: [{ src: 'icon-512.png', sizes: '512x512', type: 'image/png' }]
